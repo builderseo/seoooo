@@ -109,7 +109,9 @@ Google-SEO-Report-*.html
 Google-SEO-Report-*.pdf
 
 # Claude Code local config (project-specific permissions, not for repo)
-.claude/
+.claude/*
+!.claude/skills/
+!.claude/agents/
 .superpowers/
 
 # Local credential config (matomo.json etc., harness-independent API tokens)
